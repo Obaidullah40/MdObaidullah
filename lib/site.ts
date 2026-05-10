@@ -41,7 +41,7 @@ export const siteConfig = {
   stats: [
     { value: "3+", label: "Featured Projects", title: "Real-world, client-based & personal" },
     { value: "10+", label: "Technologies", title: "MERN, Firebase, Tailwind & more" },
-    { value: "1+", label: "Year Experience", title: "Hands-on coding & shipping" },
+    { value: "4+", label: "Year Experience", title: "Hands-on coding & shipping" },
   ],
 } as const;
 

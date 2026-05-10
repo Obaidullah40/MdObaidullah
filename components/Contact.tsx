@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Mail, Phone, MessageCircle, MapPin, Send } from "lucide-react";
-import { FaGithub, FaLinkedin, FaXTwitter, FaFacebook } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
 import Section from "./Section";
 import { siteConfig } from "@/lib/site";
 

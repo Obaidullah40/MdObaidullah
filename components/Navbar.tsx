@@ -52,12 +52,13 @@ export default function Navbar() {
 
         <div className="hidden items-center gap-2 md:flex">
           <a
-            href={siteConfig.resumeUrl}
+            href="/Resume.pdf"
             className="btn btn-primary text-sm"
-            download
+            download="Obaidullah_Resume.pdf" 
           >
             Resume
           </a>
+          
         </div>
 
         <button
@@ -87,8 +88,8 @@ export default function Navbar() {
             ))}
             <li>
               <a
-                href={siteConfig.resumeUrl}
-                download
+                href="/Resume.pdf"
+                download="Obaidullah_Resume.pdf" 
                 className="btn btn-primary mt-2 w-full justify-center text-sm"
                 onClick={() => setOpen(false)}
               >
