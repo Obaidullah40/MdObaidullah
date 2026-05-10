@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:obaidullah-portfolio.web.app)",
+      "Bash(curl -sL \"https://obaidullah-portfolio.web.app/\" -o /tmp/portfolio.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -sL \"https://obaidullah-portfolio.web.app/assets/index-BAGvm_mL.js\" -o /tmp/portfolio.js)",
+      "Bash(curl -sL \"https://obaidullah-portfolio.web.app/assets/index-BAGvm_mL.js\" -o \"E:/My Clients/Obaidullah-Portfolio/.scratch/portfolio.js\")",
+      "Bash(curl -sL \"https://obaidullah-portfolio.web.app/assets/index-D66ggUn8.css\" -o \"E:/My Clients/Obaidullah-Portfolio/.scratch/portfolio.css\")",
+      "Bash(grep -oE '\"[A-Z][a-zA-Z ]{3,80}\"' portfolio.js)",
+      "Bash(grep -oE '\"[^\"]{30,400}\"' portfolio.js)",
+      "Bash(grep -oE '\"[^\"]{20,500}\"' portfolio.js)",
+      "Bash(grep -oE '\"[A-Z][a-zA-Z ]{5,40}\"' portfolio.js)",
+      "Bash(grep -oE '\"[^\"]{40,500}\"' portfolio.js)",
+      "Bash(grep -oE '\"[A-Z][a-z][^\"]{30,500}\"' portfolio.js)",
+      "Bash(grep -oE '\"[^\"]{15,300}\"' portfolio.js)",
+      "Bash(grep -oE '\"[^\"]{15,400}\"' portfolio.js)",
+      "Bash(grep -oE '\\\\{[^{}]{0,500}level:[0-9]{2}[^{}]{0,500}\\\\}' portfolio.js)",
+      "Bash(grep -oE '\"[^\"]{30,500}\"' portfolio.js)",
+      "Bash(grep -oE 'title:\"[^\"]+\",description:\"[^\"]{0,300}\"' portfolio.js)",
+      "Bash(grep -oE '\"[^\"]+\":\"[A-Z][^\"]{15,300}\"' portfolio.js)",
+      "Bash(grep -oE '\"[^\"]{20,400}\"' portfolio.js)",
+      "Bash(grep -B0 -A0 -oE '\\\\{[^{]{0,50}icon:[^,]+,\\(title|name\\):\"[^\"]+\",[^}]+\\\\}' portfolio.js)",
+      "Bash(grep -oE '\"[^\"]{15,100}\"' portfolio.js)",
+      "Bash(grep -oE '\"[^\"]{15,200}\"' portfolio.js)",
+      "Bash(npm --version)",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(gh repo *)",
+      "Bash(git config *)",
+      "Bash(git ls-remote *)",
+      "Bash(npm install *)",
+      "Bash(ps -eW)",
+      "Bash(tasklist //FI \"IMAGENAME eq node.exe\")",
+      "Bash(npm run *)",
+      "Bash(tasklist //FI \"PID eq 14952\")"
+    ]
+  }
+}
